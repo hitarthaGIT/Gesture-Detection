@@ -23,7 +23,11 @@ By processing the video frames and the input gesture image in this manner, we en
 
 Model Selection:
 
-In the model selection/development phase, we leverage the MediaPipe Hands model provided by the mediapipe library for hand landmark detection. This model is a pre-trained neural network specifically designed for detecting and localizing hand landmarks in images or video frames. By utilizing this existing model, we benefit from its accuracy and efficiency in detecting hand landmarks, without the need to develop a new model from scratch. The mediapipe library provides a convenient and reliable implementation of this model, making it straightforward to integrate into our gesture detection system. By relying on a pre-trained model, we can achieve robust hand landmark detection capabilities without the complexities of training a new model, thereby streamlining the development process and ensuring high-quality results.
+In the model selection/development phase, we leverage the MediaPipe Hands model provided by the mediapipe library for hand landmark detection. 
+This model is a pre-trained neural network specifically designed for detecting and localizing hand landmarks in images or video frames.
+By utilizing this existing model, we benefit from its accuracy and efficiency in detecting hand landmarks, without the need to develop a new model from scratch. 
+The mediapipe library provides a convenient and reliable implementation of this model, making it straightforward to integrate into our gesture detection system. 
+By relying on a pre-trained model, we can achieve robust hand landmark detection capabilities without the complexities of training a new model, thereby streamlining the development process and ensuring high-quality results.
 
 
 Detection Algorithm: 
